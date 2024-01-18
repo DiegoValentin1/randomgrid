@@ -1,0 +1,27 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: auto;
+}
+
+.box{
+    border: red solid 1px;
+    height: 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid > div{
+    border: solid black 1px;
+    height: 50px;
+}
